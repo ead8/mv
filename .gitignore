@@ -15,5 +15,5 @@
 # Logs
 logs
 *.log
-/static/videos/
-/static/videos/
+# /static/videos/
+# /static/videos/
