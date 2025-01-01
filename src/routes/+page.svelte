@@ -2,7 +2,6 @@
 	import Aboutus from '$lib/components/Aboutus.svelte';
 	import AwardsRecognitions from '$lib/components/Awards&Recognitions.svelte';
 	import Contactus from '$lib/components/Contactus.svelte';
-	import Footer from '$lib/components/Footer.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import LastProjects from '$lib/components/LastProjects.svelte';
 	import Testimonial from '$lib/components/Testimonial.svelte';
@@ -65,7 +64,7 @@
 <section class="bg-[#EBE2D5] py-16">
 	<div class=" mx-auto px-4 md:w-[1091px]">
 		<!-- Heading -->
-		<div class="text-center">
+		<div class="text-center ">
 			<h2 class="text-3xl font-bold text-[#5A4635] md:text-4xl">Our Services</h2>
 			<p class="mx-auto mt-4 text-lg text-[#766D66]">
 				Discover a wide range of professional design solutions crafted to transform your vision into
@@ -75,103 +74,103 @@
 		</div>
 
 		<!-- Services Grid -->
-		<div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+		<div class="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			<!-- Service 1 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3]">
 				<div class="flex justify-center">
 					<img src="/icons/Frame.svg" alt="Planning Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Planning</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Planning</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					We create strategic, detailed plans for seamless execution and optimal results.
 				</p>
 			</div>
 
 			<!-- Service 2 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (1).svg" alt="Architecture Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Architecture</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Architecture</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					We create sustainable, functional, and aesthetically inspiring architectural designs.
 				</p>
 			</div>
 
 			<!-- Service 3 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (2).svg" alt="Interior Design Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Interior Design</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Interior Design</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					Transform your spaces into beautiful, functional, and personalized environments.
 				</p>
 			</div>
 
 			<!-- Service 4 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (3).svg" alt="Landscape Design Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Landscape Design</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Landscape Design</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					We design outdoor spaces that blend nature and structure, creating serene environments.
 				</p>
 			</div>
 
 			<!-- Service 5 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (4).svg" alt="Lighting Design Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Lighting Design</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Lighting Design</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					Enhance your spaces with lighting that adds ambiance, functionality, and elegance.
 				</p>
 			</div>
 
 			<!-- Service 6 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (5).svg" alt="Graphics Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Graphics</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Graphics</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					Bring your ideas to life with graphic designs that captivate and communicate effectively.
 				</p>
 			</div>
 
 			<!-- Service 7 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl hover:bg-[#E9E0D3] ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (6).svg" alt="Paintings Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Paintings/Art Pieces</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Paintings/Art Pieces</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					Add character to your spaces with custom or curated art pieces that resonate with your
 					style.
 				</p>
 			</div>
 
 			<!-- Service 8 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (7).svg" alt="Art Gallery Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Art Gallery</h3>
-				<p class="mt-2 text-[#6A6866]">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Art Gallery</h3>
+				<p class="mt-1 font-raleway text-sm text-[#6A6866]">
 					Explore our virtual gallery featuring exceptional works by talented artists and graduates.
 				</p>
 			</div>
 
 			<!-- Service 9 -->
-			<div class="text-center">
+			<div class="text-center rounded-[12px] p-3 hover:shadow-xl ">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (8).svg" alt="Workshop Icon" class="mb-4 h-12 w-12" />
 				</div>
-				<h3 class="text-xl font-semibold text-[#6A6866]">Workshop & Training Provider</h3>
-				<p class="mt-2 text-gray-600">
+				<h3 class="text-lg font-semibold text-[#5A4635] font-alice">Workshop & Training Provider</h3>
+				<p class="mt-1 font-raleway text-sm text-gray-600">
 					Empowering individuals with skills in arts, design, and real estate through certified
 					training.
 				</p>
@@ -184,37 +183,39 @@
 	<div class="mx-auto md:max-w-6xl">
 		<h2 class="mb-20 text-center font-serif text-5xl text-[#5C4937]">How We Work</h2>
 
-		<div class="grid gap-16 lg:grid-cols-3">
-			{#each steps as step}
-				<div class="flex flex-col space-y-6">
-					<!-- Number -->
-					<div
-						class="flex h-8 w-8 items-center justify-center rounded-full bg-[#5C4937] text-sm font-medium text-white md:h-12 md:w-12 md:text-lg"
-					>
-						{step.number}
-					</div>
+		<div class="relative w-full">
+			<div class="flex overflow-x-auto snap-x snap-mandatory gap-8 pb-4 max-w-[95%]">
+				{#each steps as step}
+					<div class="snap-start flex-none w-[300px] md:w-[400px] flex-shrink-0 flex flex-col space-y-6">
+						<!-- Number -->
+						<div
+							class="flex h-8 w-8 items-center justify-center rounded-full bg-[#5C4937] text-sm font-medium text-white md:h-12 md:w-12 md:text-lg"
+						>
+							{step.number}
+						</div>
 
-					<!-- Content -->
-					<div class="space-y-4">
-						<h3 class="font-alice text-2xl text-[#5A4635]">{step.title}</h3>
-						<p class="leading-relaxed font-raleway text-[#6A6866]">
-							{step.description}
-						</p>
-					</div>
+						<!-- Content -->
+						<div class="space-y-4">
+							<h3 class="font-alice text-2xl text-[#5A4635]">{step.title}</h3>
+							<p class="leading-relaxed font-raleway text-[#6A6866]">
+								{step.description}
+							</p>
+						</div>
 
-					<!-- Image Grid -->
-					<div class="mt-6 grid grid-cols-2 gap-2">
-						{#each step.images as image}
-							<img
-								src={image}
-								alt="Interior design"
-								class="h-48 w-full rounded-lg object-cover"
-								loading="lazy"
-							/>
-						{/each}
+						<!-- Image Grid -->
+						<div class="mt-6 grid grid-cols-2 gap-2">
+							{#each step.images as image}
+								<img
+									src={image}
+									alt="Interior design"
+									class="h-48 w-full rounded-lg object-cover"
+									loading="lazy"
+								/>
+							{/each}
+						</div>
 					</div>
-				</div>
-			{/each}
+				{/each}
+			</div>
 		</div>
 	</div>
 </section>
@@ -247,7 +248,7 @@
 							this={feature.icon}
 							class="h-6 w-6 text-[#5C4937] shadow-[0px_8px_64px_0px_#8F8F8F29]"
 						/>
-						<h3 class="font-serif text-xl text-[#5C4937]">
+						<h3 class="font-serif text-lg text-[#5C4937]">
 							{feature.title}
 						</h3>
 						<p class="text-[#766D66]">

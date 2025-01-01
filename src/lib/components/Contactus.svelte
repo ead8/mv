@@ -28,7 +28,7 @@
 	<div class="mx-auto max-w-[1260px] px-4 text-center">
         <div class="flex flex-col items-center justify-center">
             <h2 class="mb-4 text-[50px] font-normal font-alice leading-[57.15px] text-center text-[#6b4c35] underline-offset-[from-font] decoration-skip-ink-none">Contact Us</h2>
-            <p class="mb-10 max-w-[700px]  text-[#6b4c35]">
+            <p class="mb-10 max-w-[700px] font-raleway text-lg text-[#766D66]">
                 Get in touch with us for your design needs. Whether it’s a question, a project inquiry, or
                 feedback, we’re here to help.
             </p>

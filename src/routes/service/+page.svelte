@@ -61,7 +61,7 @@
     ];
   </script>
   
-  <section class="bg-[#F5EFE6] py-20">
+  <section class="bg-[#F5EFE6] py-20 cursor-pointer ">
     <div class="max-w-7xl mx-auto px-6 space-y-8">
       <h2 class="md:text-4xl text-3xl text-center font-alice text-[#6b4c35]">Our Services</h2>
       <div class="space-y-8">

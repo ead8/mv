@@ -6,7 +6,7 @@
   export let reverse: boolean = false; 
 </script>
 
-<div class="flex flex-col lg:flex-row items-center gap-8 p-6" class:lg:flex-row-reverse={reverse}>
+<div class="flex flex-col lg:flex-row items-center gap-8 p-6 " class:lg:flex-row-reverse={reverse}>
   <img 
     src={image} 
     alt={title} 
